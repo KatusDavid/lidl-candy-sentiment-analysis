@@ -1,0 +1,8 @@
+# Pinned to the versions used to produce the results in this repo.
+# MODELLING uses only numpy + scipy (hard constraint from the case brief).
+# pandas / matplotlib / seaborn are used for data loading and plotting only.
+numpy==2.2.6
+scipy==1.15.3
+pandas==2.3.3
+matplotlib==3.10.9
+seaborn==0.13.2

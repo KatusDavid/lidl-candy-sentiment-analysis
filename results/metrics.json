@@ -1,0 +1,98 @@
+{
+  "seed": 42,
+  "n_rows": 85,
+  "n_train": 68,
+  "n_test": 17,
+  "best_params": {
+    "n_estimators": 100,
+    "max_depth": 5,
+    "min_samples_leaf": 2,
+    "max_features": "third"
+  },
+  "cv_r2_best": 0.26540789906647416,
+  "cv_rmse_best": 11.395544770805492,
+  "test_r2": 0.5723155649723994,
+  "test_rmse": 10.393135013256792,
+  "oob_r2": 0.33101030519991004,
+  "baseline_r2": -0.011699471400836714,
+  "baseline_rmse": 15.984925190512273,
+  "rmse_improvement_vs_baseline": 5.591790177255481,
+  "ols_test_r2": 0.5619317544117202,
+  "ols_test_rmse": 10.51854655085908,
+  "ols_adj_r2": 0.40869963304664914,
+  "ols_significant_coefficients": [
+    "chocolate",
+    "fruity"
+  ],
+  "top3_features": [
+    "chocolate",
+    "pricepercent",
+    "peanutyalmondy"
+  ],
+  "recommendation": {
+    "headline": "Launch a chocolate-based bar (cookie/wafer style), not a fruity gummy.",
+    "top_features_by_permutation_importance": [
+      "chocolate",
+      "pricepercent",
+      "peanutyalmondy"
+    ],
+    "winrate_lift": {
+      "chocolate": 18.7792724054054,
+      "fruity": -11.207380919372888,
+      "caramel": 8.416369460764592,
+      "peanutyalmondy": 16.01875637726358,
+      "nougat": 10.60877983882785,
+      "crispedricewafer": 17.276237128205132,
+      "hard": -11.909449585714285,
+      "bar": 14.581017947172619,
+      "pluribus": -7.24362327937915
+    },
+    "chocolate_lift": 18.7792724054054,
+    "fruity_lift": -11.207380919372888,
+    "bar_lift": 14.581017947172619,
+    "cookie_profile_mean_winpercent": 62.79573134148435,
+    "gummy_profile_mean_winpercent": 43.81716801307815
+  },
+  "eda_summary": {
+    "n_rows": 85,
+    "winpercent_mean": 50.316763811764716,
+    "winpercent_std": 14.71435741340785,
+    "winpercent_min": 22.445341,
+    "winpercent_max": 84.18029,
+    "mean_winpercent_present": {
+      "chocolate": 60.9215294054054,
+      "fruity": 44.11974142105263,
+      "caramel": 57.34690771428571,
+      "peanutyalmondy": 63.69713678571429,
+      "nougat": 60.05187942857144,
+      "crispedricewafer": 66.170252,
+      "hard": 40.5089818,
+      "bar": 61.29541261904762,
+      "pluribus": 46.822780818181826
+    },
+    "mean_winpercent_absent": {
+      "chocolate": 42.142257,
+      "fruity": 55.32712234042552,
+      "caramel": 48.93053825352112,
+      "peanutyalmondy": 47.678380408450714,
+      "nougat": 49.44309958974359,
+      "crispedricewafer": 48.89401487179487,
+      "hard": 52.418431385714285,
+      "bar": 46.714394671875,
+      "pluribus": 54.06640409756098
+    },
+    "correlation_with_winpercent": {
+      "fruity": -0.3809381370601432,
+      "hard": -0.31038157535722805,
+      "pluribus": -0.24744786760290383,
+      "nougat": 0.1993752988015667,
+      "caramel": 0.21341629556767971,
+      "sugarpercent": 0.22915065712800636,
+      "crispedricewafer": 0.3246796513766845,
+      "pricepercent": 0.3453254099676846,
+      "peanutyalmondy": 0.40619220218098284,
+      "bar": 0.42992932818934815,
+      "chocolate": 0.6365167485397064
+    }
+  }
+}
